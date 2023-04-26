@@ -1,0 +1,22 @@
+{
+  "name": "demo-practice-app",
+  "version": "1.0.0",
+  "main": "web/index.js",
+  "license": "UNLICENSED",
+  "scripts": {
+    "shopify": "shopify",
+    "build": "shopify app build",
+    "dev": "shopify app dev --tunnel-url=https://2ebc-106-51-87-194.ngrok-free.app:8000",
+    "info": "shopify app info",
+    "generate": "shopify app generate",
+    "deploy": "shopify app deploy"
+  },
+  "dependencies": {
+    "@shopify/app": "3.45.1",
+    "@shopify/cli": "3.45.1",
+    "@shopify/shopify-api": "^7.0.0",
+    "dotenv": "^16.0.3",
+    "winston": "^3.8.2"
+  },
+  "author": "arjun"
+}
